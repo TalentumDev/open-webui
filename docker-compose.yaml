@@ -25,7 +25,7 @@ services:
     environment:
       - 'OLLAMA_BASE_URL=http://ollama:11434'
       - 'WEBUI_SECRET_KEY=trfbntghh'
-      - 'NODE_OPTIONS=--max-old-space-size=8192'
+      # - 'NODE_OPTIONS=--max-old-space-size=8192'
       - 'WEBUI_NAME=Doroky'
     extra_hosts:
       - host.docker.internal:host-gateway
